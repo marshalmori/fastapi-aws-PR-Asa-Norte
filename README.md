@@ -12,7 +12,7 @@ uvicorn api.main:app --reload
 
 ## Como fazer o push em sua conta do GitHub
 
-Passo 1 — Verificar o repositório remoto atual
+### Passo 1 — Verificar o repositório remoto atual
 
 git remote -v
 
@@ -21,17 +21,17 @@ O resultado provavelmente será semelhante a:
 origin https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git (fetch)
 origin https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git (push)
 
-Passo 2 — Criar um repositório vazio no GitHub do aluno
+### Passo 2 — Criar um repositório vazio no GitHub do aluno
 
 Você deve acessar o GitHub e criar um novo repositório. Preferencialmente, sem inicializá-lo com README, .gitignore ou licença.
 
-Passo 3 — Alterar o endereço remoto
+### Passo 3 — Alterar o endereço remoto
 
 git remote set-url origin https://github.com/USUARIO-ALUNO/REPOSITORIO-ALUNO.git
 
 Substitua o endereço pelo repositório criado pelo aluno.
 
-Passo 4 — Enviar o projeto
+### Passo 4 — Enviar o projeto
 
 git push -u origin main
 
